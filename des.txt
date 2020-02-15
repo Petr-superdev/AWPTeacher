@@ -1,0 +1,809 @@
+this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.dataGridView5 = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.dataGridView4 = new System.Windows.Forms.DataGridView();
+            this.Message = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.dataGridView3 = new System.Windows.Forms.DataGridView();
+            this.students = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark21 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark23 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark24 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark26 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark27 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark28 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark29 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark30 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark31 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark32 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark33 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark35 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark36 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark37 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark38 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark40 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark41 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark42 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark43 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark44 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark45 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark46 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark47 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark48 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark49 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Mark50 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.button1 = new System.Windows.Forms.Button();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.Classes = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.StudentList = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Subjects = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
+            this.tabPage4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
+            this.tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
+            this.tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            this.tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.tabControl1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // tabPage5
+            // 
+            this.tabPage5.Controls.Add(this.dataGridView5);
+            this.tabPage5.Location = new System.Drawing.Point(4, 22);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage5.Size = new System.Drawing.Size(1315, 689);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "Сообщения";
+            this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView5
+            // 
+            this.dataGridView5.BackgroundColor = System.Drawing.Color.LightBlue;
+            this.dataGridView5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView5.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn1});
+            this.dataGridView5.Location = new System.Drawing.Point(6, 6);
+            this.dataGridView5.Name = "dataGridView5";
+            this.dataGridView5.RowHeadersWidth = 43;
+            this.dataGridView5.Size = new System.Drawing.Size(1302, 676);
+            this.dataGridView5.TabIndex = 1;
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.HeaderText = "";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.Width = 1250;
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.Controls.Add(this.dataGridView4);
+            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(1315, 689);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Все задания";
+            this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView4
+            // 
+            this.dataGridView4.BackgroundColor = System.Drawing.Color.LightBlue;
+            this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView4.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Message});
+            this.dataGridView4.Location = new System.Drawing.Point(7, 7);
+            this.dataGridView4.Name = "dataGridView4";
+            this.dataGridView4.RowHeadersWidth = 43;
+            this.dataGridView4.Size = new System.Drawing.Size(1302, 676);
+            this.dataGridView4.TabIndex = 0;
+            // 
+            // Message
+            // 
+            this.Message.HeaderText = "";
+            this.Message.Name = "Message";
+            this.Message.Width = 1250;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.dataGridView3);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(1315, 689);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Ученикики и их оценки";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView3
+            // 
+            this.dataGridView3.BackgroundColor = System.Drawing.Color.LightBlue;
+            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.students,
+            this.Mark1,
+            this.Mark2,
+            this.Mark3,
+            this.Mark4,
+            this.Mark5,
+            this.Mark6,
+            this.Mark7,
+            this.Mark8,
+            this.Mark9,
+            this.Mark10,
+            this.Mark11,
+            this.Mark12,
+            this.Mark13,
+            this.Mark14,
+            this.Mark15,
+            this.Mark16,
+            this.Mark17,
+            this.Mark19,
+            this.Mark20,
+            this.Mark21,
+            this.Mark22,
+            this.Mark23,
+            this.Mark24,
+            this.Mark26,
+            this.Mark27,
+            this.Mark28,
+            this.Mark29,
+            this.Mark30,
+            this.Mark31,
+            this.Mark32,
+            this.Mark33,
+            this.Mark35,
+            this.Mark36,
+            this.Mark37,
+            this.Mark38,
+            this.Mark40,
+            this.Mark41,
+            this.Mark42,
+            this.Mark43,
+            this.Mark44,
+            this.Mark45,
+            this.Mark46,
+            this.Mark47,
+            this.Mark48,
+            this.Mark49,
+            this.Mark50});
+            this.dataGridView3.Location = new System.Drawing.Point(6, 6);
+            this.dataGridView3.Name = "dataGridView3";
+            this.dataGridView3.RowHeadersWidth = 43;
+            this.dataGridView3.Size = new System.Drawing.Size(1303, 677);
+            this.dataGridView3.TabIndex = 0;
+            // 
+            // students
+            // 
+            this.students.HeaderText = "Ученики";
+            this.students.Name = "students";
+            this.students.Width = 105;
+            // 
+            // Mark1
+            // 
+            this.Mark1.HeaderText = "";
+            this.Mark1.Name = "Mark1";
+            this.Mark1.Width = 20;
+            // 
+            // Mark2
+            // 
+            this.Mark2.HeaderText = "";
+            this.Mark2.Name = "Mark2";
+            this.Mark2.Width = 20;
+            // 
+            // Mark3
+            // 
+            this.Mark3.HeaderText = "";
+            this.Mark3.Name = "Mark3";
+            this.Mark3.Width = 20;
+            // 
+            // Mark4
+            // 
+            this.Mark4.HeaderText = "";
+            this.Mark4.Name = "Mark4";
+            this.Mark4.Width = 20;
+            // 
+            // Mark5
+            // 
+            this.Mark5.HeaderText = "";
+            this.Mark5.Name = "Mark5";
+            this.Mark5.Width = 20;
+            // 
+            // Mark6
+            // 
+            this.Mark6.HeaderText = "";
+            this.Mark6.Name = "Mark6";
+            this.Mark6.Width = 20;
+            // 
+            // Mark7
+            // 
+            this.Mark7.HeaderText = "";
+            this.Mark7.Name = "Mark7";
+            this.Mark7.Width = 20;
+            // 
+            // Mark8
+            // 
+            this.Mark8.HeaderText = "";
+            this.Mark8.Name = "Mark8";
+            this.Mark8.Width = 20;
+            // 
+            // Mark9
+            // 
+            this.Mark9.HeaderText = "";
+            this.Mark9.Name = "Mark9";
+            this.Mark9.Width = 20;
+            // 
+            // Mark10
+            // 
+            this.Mark10.HeaderText = "";
+            this.Mark10.Name = "Mark10";
+            this.Mark10.Width = 20;
+            // 
+            // Mark11
+            // 
+            this.Mark11.HeaderText = "";
+            this.Mark11.Name = "Mark11";
+            this.Mark11.Width = 20;
+            // 
+            // Mark12
+            // 
+            this.Mark12.HeaderText = "";
+            this.Mark12.Name = "Mark12";
+            this.Mark12.Width = 20;
+            // 
+            // Mark13
+            // 
+            this.Mark13.HeaderText = "";
+            this.Mark13.Name = "Mark13";
+            this.Mark13.Width = 20;
+            // 
+            // Mark14
+            // 
+            this.Mark14.HeaderText = "";
+            this.Mark14.Name = "Mark14";
+            this.Mark14.Width = 20;
+            // 
+            // Mark15
+            // 
+            this.Mark15.HeaderText = "";
+            this.Mark15.Name = "Mark15";
+            this.Mark15.Width = 20;
+            // 
+            // Mark16
+            // 
+            this.Mark16.HeaderText = "";
+            this.Mark16.Name = "Mark16";
+            this.Mark16.Width = 20;
+            // 
+            // Mark17
+            // 
+            this.Mark17.HeaderText = "";
+            this.Mark17.Name = "Mark17";
+            this.Mark17.Width = 20;
+            // 
+            // Mark19
+            // 
+            this.Mark19.HeaderText = "";
+            this.Mark19.Name = "Mark19";
+            this.Mark19.Width = 20;
+            // 
+            // Mark20
+            // 
+            this.Mark20.HeaderText = "";
+            this.Mark20.Name = "Mark20";
+            this.Mark20.Width = 20;
+            // 
+            // Mark21
+            // 
+            this.Mark21.HeaderText = "";
+            this.Mark21.Name = "Mark21";
+            this.Mark21.Width = 20;
+            // 
+            // Mark22
+            // 
+            this.Mark22.HeaderText = "";
+            this.Mark22.Name = "Mark22";
+            this.Mark22.Width = 20;
+            // 
+            // Mark23
+            // 
+            this.Mark23.HeaderText = "";
+            this.Mark23.Name = "Mark23";
+            this.Mark23.Width = 20;
+            // 
+            // Mark24
+            // 
+            this.Mark24.HeaderText = "";
+            this.Mark24.Name = "Mark24";
+            this.Mark24.Width = 20;
+            // 
+            // Mark26
+            // 
+            this.Mark26.HeaderText = "";
+            this.Mark26.Name = "Mark26";
+            this.Mark26.Width = 20;
+            // 
+            // Mark27
+            // 
+            this.Mark27.HeaderText = "";
+            this.Mark27.Name = "Mark27";
+            this.Mark27.Width = 20;
+            // 
+            // Mark28
+            // 
+            this.Mark28.HeaderText = "";
+            this.Mark28.Name = "Mark28";
+            this.Mark28.Width = 20;
+            // 
+            // Mark29
+            // 
+            this.Mark29.HeaderText = "";
+            this.Mark29.Name = "Mark29";
+            this.Mark29.Width = 20;
+            // 
+            // Mark30
+            // 
+            this.Mark30.HeaderText = "";
+            this.Mark30.Name = "Mark30";
+            this.Mark30.Width = 20;
+            // 
+            // Mark31
+            // 
+            this.Mark31.HeaderText = "";
+            this.Mark31.Name = "Mark31";
+            this.Mark31.Width = 20;
+            // 
+            // Mark32
+            // 
+            this.Mark32.HeaderText = "";
+            this.Mark32.Name = "Mark32";
+            this.Mark32.Width = 20;
+            // 
+            // Mark33
+            // 
+            this.Mark33.HeaderText = "";
+            this.Mark33.Name = "Mark33";
+            this.Mark33.Width = 20;
+            // 
+            // Mark35
+            // 
+            this.Mark35.HeaderText = "";
+            this.Mark35.Name = "Mark35";
+            this.Mark35.Width = 20;
+            // 
+            // Mark36
+            // 
+            this.Mark36.HeaderText = "";
+            this.Mark36.Name = "Mark36";
+            this.Mark36.Width = 20;
+            // 
+            // Mark37
+            // 
+            this.Mark37.HeaderText = "";
+            this.Mark37.Name = "Mark37";
+            this.Mark37.Width = 20;
+            // 
+            // Mark38
+            // 
+            this.Mark38.HeaderText = "";
+            this.Mark38.Name = "Mark38";
+            this.Mark38.Width = 20;
+            // 
+            // Mark40
+            // 
+            this.Mark40.HeaderText = "";
+            this.Mark40.Name = "Mark40";
+            this.Mark40.Width = 20;
+            // 
+            // Mark41
+            // 
+            this.Mark41.HeaderText = "";
+            this.Mark41.Name = "Mark41";
+            this.Mark41.Width = 20;
+            // 
+            // Mark42
+            // 
+            this.Mark42.HeaderText = "";
+            this.Mark42.Name = "Mark42";
+            this.Mark42.Width = 20;
+            // 
+            // Mark43
+            // 
+            this.Mark43.HeaderText = "";
+            this.Mark43.Name = "Mark43";
+            this.Mark43.Width = 20;
+            // 
+            // Mark44
+            // 
+            this.Mark44.HeaderText = "";
+            this.Mark44.Name = "Mark44";
+            this.Mark44.Width = 20;
+            // 
+            // Mark45
+            // 
+            this.Mark45.HeaderText = "";
+            this.Mark45.Name = "Mark45";
+            this.Mark45.Width = 20;
+            // 
+            // Mark46
+            // 
+            this.Mark46.HeaderText = "";
+            this.Mark46.Name = "Mark46";
+            this.Mark46.Width = 20;
+            // 
+            // Mark47
+            // 
+            this.Mark47.HeaderText = "";
+            this.Mark47.Name = "Mark47";
+            this.Mark47.Width = 20;
+            // 
+            // Mark48
+            // 
+            this.Mark48.HeaderText = "";
+            this.Mark48.Name = "Mark48";
+            this.Mark48.Width = 20;
+            // 
+            // Mark49
+            // 
+            this.Mark49.HeaderText = "";
+            this.Mark49.Name = "Mark49";
+            this.Mark49.Width = 20;
+            // 
+            // Mark50
+            // 
+            this.Mark50.HeaderText = "";
+            this.Mark50.Name = "Mark50";
+            this.Mark50.Width = 20;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.button1);
+            this.tabPage2.Controls.Add(this.richTextBox1);
+            this.tabPage2.Controls.Add(this.dataGridView2);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(1315, 689);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Классы ";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button1.Location = new System.Drawing.Point(711, 234);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(193, 67);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Показать информацию об ученике";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.BackColor = System.Drawing.SystemColors.Menu;
+            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.richTextBox1.ForeColor = System.Drawing.Color.Black;
+            this.richTextBox1.Location = new System.Drawing.Point(711, 7);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(467, 221);
+            this.richTextBox1.TabIndex = 1;
+            this.richTextBox1.Text = "";
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.BackgroundColor = System.Drawing.Color.LightBlue;
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Classes,
+            this.StudentList});
+            this.dataGridView2.Location = new System.Drawing.Point(7, 7);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.RowHeadersWidth = 43;
+            this.dataGridView2.Size = new System.Drawing.Size(698, 676);
+            this.dataGridView2.TabIndex = 0;
+            // 
+            // Classes
+            // 
+            this.Classes.HeaderText = "классы";
+            this.Classes.Name = "Classes";
+            this.Classes.Width = 105;
+            // 
+            // StudentList
+            // 
+            this.StudentList.HeaderText = "Ученики";
+            this.StudentList.Name = "StudentList";
+            this.StudentList.Width = 105;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Controls.Add(this.dataGridView1);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(1315, 689);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "Расписание предметов";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.LightBlue;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Subjects,
+            this.Column1,
+            this.Column2,
+            this.Column3,
+            this.Column4,
+            this.Column5,
+            this.Column6,
+            this.Column7,
+            this.Column8,
+            this.Column9,
+            this.Column10,
+            this.Column11});
+            this.dataGridView1.GridColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.dataGridView1.Location = new System.Drawing.Point(7, 7);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 43;
+            this.dataGridView1.Size = new System.Drawing.Size(1302, 676);
+            this.dataGridView1.TabIndex = 0;
+            // 
+            // Subjects
+            // 
+            this.Subjects.HeaderText = "Предметы ";
+            this.Subjects.Name = "Subjects";
+            this.Subjects.Width = 105;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Column1";
+            this.Column1.Name = "Column1";
+            this.Column1.Width = 105;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Column2";
+            this.Column2.Name = "Column2";
+            this.Column2.Width = 105;
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Column3";
+            this.Column3.Name = "Column3";
+            this.Column3.Width = 105;
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "Column4";
+            this.Column4.Name = "Column4";
+            this.Column4.Width = 105;
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "Column5";
+            this.Column5.Name = "Column5";
+            this.Column5.Width = 105;
+            // 
+            // Column6
+            // 
+            this.Column6.HeaderText = "Column6";
+            this.Column6.Name = "Column6";
+            this.Column6.Width = 105;
+            // 
+            // Column7
+            // 
+            this.Column7.HeaderText = "Column7";
+            this.Column7.Name = "Column7";
+            this.Column7.Width = 105;
+            // 
+            // Column8
+            // 
+            this.Column8.HeaderText = "Column8";
+            this.Column8.Name = "Column8";
+            this.Column8.Width = 105;
+            // 
+            // Column9
+            // 
+            this.Column9.HeaderText = "Column9";
+            this.Column9.Name = "Column9";
+            this.Column9.Width = 105;
+            // 
+            // Column10
+            // 
+            this.Column10.HeaderText = "Column10";
+            this.Column10.Name = "Column10";
+            this.Column10.Width = 105;
+            // 
+            // Column11
+            // 
+            this.Column11.HeaderText = "Column11";
+            this.Column11.Name = "Column11";
+            this.Column11.Width = 105;
+            // 
+            // tabControl1
+            // 
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Controls.Add(this.tabPage3);
+            this.tabControl1.Controls.Add(this.tabPage4);
+            this.tabControl1.Controls.Add(this.tabPage5);
+            this.tabControl1.Location = new System.Drawing.Point(12, 12);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(1323, 715);
+            this.tabControl1.TabIndex = 0;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1347, 739);
+            this.Controls.Add(this.tabControl1);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.tabPage5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).EndInit();
+            this.tabPage4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
+            this.tabPage3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
+            this.tabPage2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            this.tabPage1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.tabControl1.ResumeLayout(false);
+            this.ResumeLayout(false);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+private System.Windows.Forms.TabPage tabPage5;
+        private System.Windows.Forms.TabPage tabPage4;
+        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Classes;
+        private System.Windows.Forms.DataGridViewTextBoxColumn StudentList;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.DataGridView dataGridView3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn students;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark9;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark10;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark11;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark12;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark13;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark14;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark15;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark16;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark17;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark19;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark20;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark21;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark22;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark23;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark24;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark26;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark27;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark28;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark29;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark30;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark31;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark32;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark33;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark35;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark36;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark37;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark38;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark40;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark41;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark42;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark43;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark44;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark45;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark46;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark47;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark48;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark49;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Mark50;
+        private System.Windows.Forms.DataGridView dataGridView5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridView dataGridView4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Message;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Subjects;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column11;
