@@ -34,3 +34,15 @@ F:\програмирование\AWPteacher — копия\AWPteacher\bin\Debug
 F:\програмирование\AWPteacher — копия\AWPteacher\bin\Debug\AWPteacher.Model.dll
 F:\програмирование\AWPteacher — копия\AWPteacher\bin\Debug\AWPteacher.Model.pdb
 F:\програмирование\AWPteacher — копия\AWPteacher\obj\Debug\AWPteacher.csproj.CopyComplete
+e:\програмирование\AWPteacher\AWPteacher\bin\Debug\AWPteacher.exe
+e:\програмирование\AWPteacher\AWPteacher\bin\Debug\AWPteacher.pdb
+e:\програмирование\AWPteacher\AWPteacher\bin\Debug\AWPteacher.Model.dll
+e:\програмирование\AWPteacher\AWPteacher\bin\Debug\AWPteacher.Model.pdb
+e:\програмирование\AWPteacher\AWPteacher\obj\Debug\AWPteacher.csprojResolveAssemblyReference.cache
+e:\програмирование\AWPteacher\AWPteacher\obj\Debug\AWPteacher.AddForm.resources
+e:\програмирование\AWPteacher\AWPteacher\obj\Debug\AWPteacher.Form1.resources
+e:\програмирование\AWPteacher\AWPteacher\obj\Debug\AWPteacher.Properties.Resources.resources
+e:\програмирование\AWPteacher\AWPteacher\obj\Debug\AWPteacher.csproj.GenerateResource.Cache
+e:\програмирование\AWPteacher\AWPteacher\obj\Debug\AWPteacher.csproj.CoreCompileInputs.cache
+e:\програмирование\AWPteacher\AWPteacher\obj\Debug\AWPteacher.exe
+e:\програмирование\AWPteacher\AWPteacher\obj\Debug\AWPteacher.pdb

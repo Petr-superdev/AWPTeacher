@@ -8,8 +8,8 @@ namespace AWPteacher.GUI.Model
 {
     class Lesson : IModel
     {
-        public string[] FieldHeadersForAdd { get; set; } = { "Домашнее задание" };
-        public string[] FieldHeadersForGrid { get; set; } = {"ID", "Домашнее задание" };
-        public int[] FieldHeadersWidthForGrid { get; set; } = { 50, 200 };
+        public  string[] FieldHeadersForAdd { get; set; } = { "Домашнее задание" };
+        public  string[] FieldHeadersForGrid { get; set; } = {"ID", "Домашнее задание" };
+        public  int[] FieldHeadersWidthForGrid { get; set; } = { 50, 200 };
     }
 }

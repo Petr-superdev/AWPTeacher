@@ -6,13 +6,12 @@ using System.Windows.Forms;
 
 namespace AWPteacher.GUI.Model
 {
-    class Marks : IModel
+    class Mark :  IModel
     {
-        public string[] FieldHeadersForAdd { get; set; } = { "Оценка" };
-        public string[] FieldHeadersForGrid { get; set; } = {"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "",
+        public  string[] FieldHeadersForAdd { get; set; } = { "Оценка" };
+        public  string[] FieldHeadersForGrid { get; set; } = {"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "",
         "","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",};
-        public int[] FieldHeadersWidthForGrid { get; set; } = {15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15,
+        public  int[] FieldHeadersWidthForGrid { get; set; } = {15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15,
         15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,};
-
     }
 }

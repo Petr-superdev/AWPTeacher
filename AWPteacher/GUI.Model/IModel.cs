@@ -7,9 +7,8 @@ namespace AWPteacher.GUI.Model
 {
     interface IModel
     {
-        string[] FieldHeadersForAdd { get; set; }
+        string[] FieldHeadersForAdd { get; set; } 
         string[] FieldHeadersForGrid { get; set; } 
-        int[] FieldHeadersWidthForGrid { get; set; } 
+        int[] FieldHeadersWidthForGrid { get; set; }
     }
-        
 }

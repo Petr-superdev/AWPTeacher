@@ -56,12 +56,13 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI.Model\Class.cs" />
+    <Compile Include="GUI.Model\CurrentModel.cs" />
     <Compile Include="GUI.Model\IModel.cs" />
     <Compile Include="GUI.Model\Lesson.cs" />
-    <Compile Include="GUI.Model\Marks.cs" />
-    <Compile Include="GUI.Model\Students .cs" />
-    <Compile Include="GUI.Model\Subjects.cs" />
-    <Compile Include="GUI.Model\Teachers.cs" />
+    <Compile Include="GUI.Model\Mark.cs" />
+    <Compile Include="GUI.Model\Student.cs" />
+    <Compile Include="GUI.Model\Subject.cs" />
+    <Compile Include="GUI.Model\Teacher.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AddForm.resx">
@@ -79,6 +80,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

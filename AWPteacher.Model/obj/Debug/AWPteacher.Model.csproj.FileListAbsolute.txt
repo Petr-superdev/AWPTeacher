@@ -14,3 +14,9 @@ F:\програмирование\AWPteacher — копия\AWPteacher.Model\bin
 F:\програмирование\AWPteacher — копия\AWPteacher.Model\obj\Debug\AWPteacher.Model.csprojAssemblyReference.cache
 F:\програмирование\AWPteacher — копия\AWPteacher.Model\obj\Debug\AWPteacher.Model.dll
 F:\програмирование\AWPteacher — копия\AWPteacher.Model\obj\Debug\AWPteacher.Model.pdb
+e:\програмирование\AWPteacher\AWPteacher.Model\bin\Debug\AWPteacher.Model.dll
+e:\програмирование\AWPteacher\AWPteacher.Model\bin\Debug\AWPteacher.Model.pdb
+e:\програмирование\AWPteacher\AWPteacher.Model\obj\Debug\AWPteacher.Model.csprojResolveAssemblyReference.cache
+e:\програмирование\AWPteacher\AWPteacher.Model\obj\Debug\AWPteacher.Model.csproj.CoreCompileInputs.cache
+e:\програмирование\AWPteacher\AWPteacher.Model\obj\Debug\AWPteacher.Model.dll
+e:\програмирование\AWPteacher\AWPteacher.Model\obj\Debug\AWPteacher.Model.pdb

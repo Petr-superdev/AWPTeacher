@@ -11,13 +11,15 @@ namespace AWPteacher
 {
     public partial class AddForm : Form
     {
-        public void DrawElements(string[] fields)
+        private Form1 parentForm;
+
+        private TextBox[] textBoxes;
+
+        public void DrawElements()
         {
-            TextBox[] textBoxes = new TextBox[fields.Length];
-            
-            // 
-            // textBox1
-            // 
+            string[] fields = GUI.Model.CurrentModel.GUIModel.FieldHeadersForAdd;
+            textBoxes = new TextBox[fields.Length];
+
             for (int i = 0; i < fields.Length; i++)
             {
                 textBoxes[i] = new TextBox();
@@ -27,27 +29,70 @@ namespace AWPteacher
                 textBoxes[i].Size = new System.Drawing.Size(100, 20);
                 this.Controls.Add(textBoxes[i]);
             }
-
-            
-
-            /*
-            textBoxes[0].Show();
-            System.Windows.Forms.Button[] buttons = new System.Windows.Forms.Button[1];
-            buttons[0] = new System.Windows.Forms.Button();
-            //
-            //button 1
-            //
-            buttons[0].Location = new System.Drawing.Point(307, 121);
-            buttons[0].Name = "button1";
-            buttons[0].Size = new System.Drawing.Size(75, 23);
-            buttons[0].TabIndex = 0;
-            buttons[0].Text = "Добавить";
-            addForm.Controls.Add(buttons[0]);*/
         }
 
-        public AddForm()
+        public AddForm(Form1 parentForm)
         {
+            this.parentForm = parentForm;
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (GUI.Model.CurrentModel.Model is AWPteacher.Model.Class)
+            {
+                AWPteacher.Model.Class class_ = (AWPteacher.Model.Class)GUI.Model.CurrentModel.Model;
+
+                string name = textBoxes[0].Text;
+
+                class_ = new AWPteacher.Model.Class(name);
+
+                AWPteacher.Model.Class.List.Add(class_);
+
+            }
+            else if (GUI.Model.CurrentModel.Model is AWPteacher.Model.Lesson)
+            {
+
+                AWPteacher.Model.Lesson lesson_ = (AWPteacher.Model.Lesson)GUI.Model.CurrentModel.Model;
+
+                string hw = textBoxes[0].Text;
+
+                lesson_ = new AWPteacher.Model.Lesson(hw);
+
+            }
+            ////
+            else if (GUI.Model.CurrentModel.Model is AWPteacher.Model.Mark)
+            {
+
+                AWPteacher.Model.Mark mark_ = (AWPteacher.Model.Mark)GUI.Model.CurrentModel.Model;
+
+                string value = textBoxes[0].Text;
+
+                mark_ = new AWPteacher.Model.Mark(Convert.ToByte(value));
+
+            }
+            else if (GUI.Model.CurrentModel.Model is AWPteacher.Model.Subject)
+            {
+
+                AWPteacher.Model.Subject subject_ = (AWPteacher.Model.Subject)GUI.Model.CurrentModel.Model;
+
+                string name = textBoxes[0].Text;
+
+                subject_ = new AWPteacher.Model.Subject(name);
+
+            }
+            else if (GUI.Model.CurrentModel.Model is AWPteacher.Model.Teacher)
+            {
+
+                AWPteacher.Model.Teacher teacher_ = (AWPteacher.Model.Teacher)GUI.Model.CurrentModel.Model;
+
+                string name = textBoxes[0].Text;
+
+                teacher_ = new AWPteacher.Model.Teacher(name);
+
+            }
+            this.Close();
+            parentForm.DataGridViewDraw();
         }
     }
 }
