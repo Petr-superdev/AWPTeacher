@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 
@@ -17,6 +18,16 @@ namespace AWPteacher.Model
         {
             Id = 0 /*TODO*/;
             Name = name;
+        }
+        public override void SaveListInTxt()
+        {
+            StreamWriter sw = new StreamWriter(Environment.CurrentDirectory + "//TeacherList.txt");
+            foreach (Teacher teacher in List)
+            {
+                sw.WriteLine(teacher.Id);
+                sw.WriteLine(teacher.Name);
+            }
+            sw.Close();
         }
     }
 }

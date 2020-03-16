@@ -1,12 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 
 namespace AWPteacher.Model
 {
-    public class Model
+    public abstract class Model
     {
-        //static public List<Model> List { get; set; }
+        public abstract void SaveListInTxt();
+        public abstract void LoadListFromTxt();
+        
     }
 }

@@ -11,5 +11,25 @@ namespace AWPteacher.GUI.Model
         public  string[] FieldHeadersForAdd { get; set; } = {"ФИО ученика/цы" };
         public  string[] FieldHeadersForGrid { get; set; } = { "ID","ФИО"};
         public  int[] FieldHeadersWidthForGrid { get; set; } = { 50,150};
+
+        public void CellsDraw(DataGridView dataGridView)
+        {
+            for (int i = 0; i < AWPteacher.Model.Student.List.Count; i++)
+            {
+                int rowNumber = dataGridView.Rows.Add();
+
+                dataGridView.Rows[rowNumber].Cells[0].Value = AWPteacher.Model.Student.List[i].Id;
+                dataGridView.Rows[rowNumber].Cells[1].Value = AWPteacher.Model.Student.List[i].Name;
+            }
+        }
+
+        public void AddInList(TextBox[] textBoxes)
+        {
+            string name = textBoxes[0].Text;
+
+            var student_ = new AWPteacher.Model.Student(name);
+
+            AWPteacher.Model.Student.List.Add(student_);
+        }
     }
 }

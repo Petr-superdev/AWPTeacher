@@ -42,65 +42,7 @@ namespace AWPteacher
 
         public void CellsDraw()
         {
-            if (GUI.Model.CurrentModel.Model is AWPteacher.Model.Class)
-            {
-                for (int i = 0; i < AWPteacher.Model.Class.List.Count; i++)
-                {
-                    int rowNumber = dataGridView1.Rows.Add();
-
-                    dataGridView1.Rows[rowNumber].Cells[0].Value = AWPteacher.Model.Class.List[i].Id;
-                    dataGridView1.Rows[rowNumber].Cells[1].Value = AWPteacher.Model.Class.List[i].Name;
-                }
-            }
-            else if (GUI.Model.CurrentModel.Model is AWPteacher.Model.Lesson)
-            {
-                for (int i = 0; i < AWPteacher.Model.Lesson.List.Count; i++)
-                {
-                    int rowNumber = dataGridView1.Rows.Add();
-
-                    dataGridView1.Rows[rowNumber].Cells[0].Value = AWPteacher.Model.Lesson.List[i].Id;
-                    dataGridView1.Rows[rowNumber].Cells[1].Value = AWPteacher.Model.Lesson.List[i].HomeWork;
-                }
-            }
-            else if (GUI.Model.CurrentModel.Model is AWPteacher.Model.Mark)
-            {
-                for (int i = 0; i < AWPteacher.Model.Mark.List.Count; i++)
-                {
-                    int rowNumber = dataGridView1.Rows.Add();
-
-                    dataGridView1.Rows[rowNumber].Cells[0].Value = AWPteacher.Model.Mark.List[i].Value;
-                }
-            }
-            else if (GUI.Model.CurrentModel.Model is AWPteacher.Model.Student)
-            {
-                for (int i = 0; i < AWPteacher.Model.Student.List.Count; i++)
-                {
-                    int rowNumber = dataGridView1.Rows.Add();
-
-                    dataGridView1.Rows[rowNumber].Cells[0].Value = AWPteacher.Model.Student.List[i].Name;
-                    dataGridView1.Rows[rowNumber].Cells[0].Value = AWPteacher.Model.Student.List[i].Id;
-                }
-            }
-            else if (GUI.Model.CurrentModel.Model is AWPteacher.Model.Subject)
-            {
-                for (int i = 0; i < AWPteacher.Model.Subject.List.Count; i++)
-                {
-                    int rowNumber = dataGridView1.Rows.Add();
-
-                    dataGridView1.Rows[rowNumber].Cells[0].Value = AWPteacher.Model.Subject.List[i].Name;
-                    dataGridView1.Rows[rowNumber].Cells[0].Value = AWPteacher.Model.Subject.List[i].Id;
-                }
-            }
-            else if (GUI.Model.CurrentModel.Model is AWPteacher.Model.Teacher)
-            {
-                for (int i = 0; i < AWPteacher.Model.Teacher.List.Count; i++)
-                {
-                    int rowNumber = dataGridView1.Rows.Add();
-
-                    dataGridView1.Rows[rowNumber].Cells[0].Value = AWPteacher.Model.Teacher.List[i].Name;
-                    dataGridView1.Rows[rowNumber].Cells[0].Value = AWPteacher.Model.Teacher.List[i].Id;
-                }
-            }
+            GUI.Model.CurrentModel.GUIModel.CellsDraw(dataGridView1);
         }
        
         private void button1_Click(object sender, EventArgs e)
@@ -139,6 +81,33 @@ namespace AWPteacher
             AddForm addForm = new AddForm(this);
             addForm.Show();
             addForm.DrawElements();      
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        
+        private void сохранитьToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Model.Model model = new Model.Class();
+            model.SaveListInTxt();
+            model = new Model.Lesson();
+            model.SaveListInTxt();
+            model = new Model.Mark();
+            model.SaveListInTxt();
+            model = new Model.Student();
+            model.SaveListInTxt();
+            model = new Model.Subject();
+            model.SaveListInTxt();
+            model = new Model.Teacher();
+            model.SaveListInTxt();
+        }
+
+        private void загрузитьToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

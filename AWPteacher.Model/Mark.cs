@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 
@@ -15,6 +16,15 @@ namespace AWPteacher.Model
         public Mark(byte value)
         {
             Value = value;
+        }
+        public override void SaveListInTxt()
+        {
+            StreamWriter sw = new StreamWriter(Environment.CurrentDirectory + "//MarkList.txt");
+            foreach (Mark mark in List)
+            {
+                sw.WriteLine(mark.Value);
+            }
+            sw.Close();
         }
     }
 }

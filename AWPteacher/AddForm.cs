@@ -39,58 +39,7 @@ namespace AWPteacher
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (GUI.Model.CurrentModel.Model is AWPteacher.Model.Class)
-            {
-                AWPteacher.Model.Class class_ = (AWPteacher.Model.Class)GUI.Model.CurrentModel.Model;
-
-                string name = textBoxes[0].Text;
-
-                class_ = new AWPteacher.Model.Class(name);
-
-                AWPteacher.Model.Class.List.Add(class_);
-
-            }
-            else if (GUI.Model.CurrentModel.Model is AWPteacher.Model.Lesson)
-            {
-
-                AWPteacher.Model.Lesson lesson_ = (AWPteacher.Model.Lesson)GUI.Model.CurrentModel.Model;
-
-                string hw = textBoxes[0].Text;
-
-                lesson_ = new AWPteacher.Model.Lesson(hw);
-
-            }
-            ////
-            else if (GUI.Model.CurrentModel.Model is AWPteacher.Model.Mark)
-            {
-
-                AWPteacher.Model.Mark mark_ = (AWPteacher.Model.Mark)GUI.Model.CurrentModel.Model;
-
-                string value = textBoxes[0].Text;
-
-                mark_ = new AWPteacher.Model.Mark(Convert.ToByte(value));
-
-            }
-            else if (GUI.Model.CurrentModel.Model is AWPteacher.Model.Subject)
-            {
-
-                AWPteacher.Model.Subject subject_ = (AWPteacher.Model.Subject)GUI.Model.CurrentModel.Model;
-
-                string name = textBoxes[0].Text;
-
-                subject_ = new AWPteacher.Model.Subject(name);
-
-            }
-            else if (GUI.Model.CurrentModel.Model is AWPteacher.Model.Teacher)
-            {
-
-                AWPteacher.Model.Teacher teacher_ = (AWPteacher.Model.Teacher)GUI.Model.CurrentModel.Model;
-
-                string name = textBoxes[0].Text;
-
-                teacher_ = new AWPteacher.Model.Teacher(name);
-
-            }
+            GUI.Model.CurrentModel.GUIModel.AddInList(textBoxes);
             this.Close();
             parentForm.DataGridViewDraw();
         }
