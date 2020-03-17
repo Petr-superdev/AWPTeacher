@@ -107,7 +107,18 @@ namespace AWPteacher
 
         private void загрузитьToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            Model.Model model = new Model.Class();
+            model.LoadListFromTxt();
+            model = new Model.Lesson();
+            model.LoadListFromTxt();
+            model = new Model.Mark();
+            model.LoadListFromTxt();
+            model = new Model.Student();
+            model.LoadListFromTxt();
+            model = new Model.Subject();
+            model.LoadListFromTxt();
+            model = new Model.Teacher();
+            model.LoadListFromTxt();
         }
     }
 }

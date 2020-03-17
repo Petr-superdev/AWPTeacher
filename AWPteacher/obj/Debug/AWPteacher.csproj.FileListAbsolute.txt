@@ -44,5 +44,5 @@ e:\програмирование\AWPteacher\AWPteacher\obj\Debug\AWPteacher.csp
 e:\програмирование\AWPteacher\AWPteacher\obj\Debug\AWPteacher.csproj.CoreCompileInputs.cache
 e:\програмирование\AWPteacher\AWPteacher\obj\Debug\AWPteacher.exe
 e:\програмирование\AWPteacher\AWPteacher\obj\Debug\AWPteacher.pdb
-f:\програмирование\AWPteacher\AWPteacher\obj\Debug\AWPteacher.csprojResolveAssemblyReference.cache
-f:\програмирование\AWPteacher\AWPteacher\obj\Debug\AWPteacher.csproj.CoreCompileInputs.cache
+F:\програмирование\AWPteacher\AWPteacher\obj\Debug\AWPteacher.csprojAssemblyReference.cache
+F:\програмирование\AWPteacher\AWPteacher\obj\Debug\AWPteacher.csproj.CopyComplete

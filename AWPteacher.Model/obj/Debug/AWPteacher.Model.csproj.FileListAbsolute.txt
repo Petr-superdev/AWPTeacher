@@ -19,5 +19,4 @@ e:\програмирование\AWPteacher\AWPteacher.Model\obj\Debug\AWPteach
 e:\програмирование\AWPteacher\AWPteacher.Model\obj\Debug\AWPteacher.Model.csproj.CoreCompileInputs.cache
 e:\програмирование\AWPteacher\AWPteacher.Model\obj\Debug\AWPteacher.Model.dll
 e:\програмирование\AWPteacher\AWPteacher.Model\obj\Debug\AWPteacher.Model.pdb
-f:\програмирование\AWPteacher\AWPteacher.Model\obj\Debug\AWPteacher.Model.csprojResolveAssemblyReference.cache
-f:\програмирование\AWPteacher\AWPteacher.Model\obj\Debug\AWPteacher.Model.csproj.CoreCompileInputs.cache
+F:\програмирование\AWPteacher\AWPteacher.Model\obj\Debug\AWPteacher.Model.csprojAssemblyReference.cache

@@ -20,11 +20,23 @@ namespace AWPteacher.Model
         public override void SaveListInTxt()
         {
             StreamWriter sw = new StreamWriter(Environment.CurrentDirectory + "//MarkList.txt");
+            sw.WriteLine(List.Count);
             foreach (Mark mark in List)
             {
                 sw.WriteLine(mark.Value);
             }
             sw.Close();
+        }
+
+        public override void LoadListFromTxt()
+        {
+            StringReader sr = new StringReader(Environment.CurrentDirectory + "//ClassList.txt");
+            for (int i = Convert.ToInt32(sr.ReadLine()); i > 0; i--)
+            {
+                string value = sr.ReadLine();
+                var mark = new Mark(Convert.ToByte(value));
+                List.Add(mark);
+            }
         }
     }
 }
