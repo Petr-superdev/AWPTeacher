@@ -20,3 +20,9 @@ e:\програмирование\AWPteacher\AWPteacher.Model\obj\Debug\AWPteach
 e:\програмирование\AWPteacher\AWPteacher.Model\obj\Debug\AWPteacher.Model.dll
 e:\програмирование\AWPteacher\AWPteacher.Model\obj\Debug\AWPteacher.Model.pdb
 F:\програмирование\AWPteacher\AWPteacher.Model\obj\Debug\AWPteacher.Model.csprojAssemblyReference.cache
+d:\Занятия 2019-2020\Программирование на C# часть 2\Тарасов Петр\GitHub\AWPTeacher29.02.2020\AWPteacher.Model\bin\Debug\AWPteacher.Model.dll
+d:\Занятия 2019-2020\Программирование на C# часть 2\Тарасов Петр\GitHub\AWPTeacher29.02.2020\AWPteacher.Model\bin\Debug\AWPteacher.Model.pdb
+d:\Занятия 2019-2020\Программирование на C# часть 2\Тарасов Петр\GitHub\AWPTeacher29.02.2020\AWPteacher.Model\obj\Debug\AWPteacher.Model.csprojResolveAssemblyReference.cache
+d:\Занятия 2019-2020\Программирование на C# часть 2\Тарасов Петр\GitHub\AWPTeacher29.02.2020\AWPteacher.Model\obj\Debug\AWPteacher.Model.csproj.CoreCompileInputs.cache
+d:\Занятия 2019-2020\Программирование на C# часть 2\Тарасов Петр\GitHub\AWPTeacher29.02.2020\AWPteacher.Model\obj\Debug\AWPteacher.Model.dll
+d:\Занятия 2019-2020\Программирование на C# часть 2\Тарасов Петр\GitHub\AWPTeacher29.02.2020\AWPteacher.Model\obj\Debug\AWPteacher.Model.pdb

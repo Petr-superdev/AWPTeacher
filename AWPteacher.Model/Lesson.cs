@@ -9,8 +9,21 @@ namespace AWPteacher.Model
     public class Lesson : Model
     {
         static public List<Lesson> List { get; set; } = new List<Lesson>();
+
+        //
         public long Id { get; set; }
+        //
+        public DateTime DateTime { get; set; }
+        //
         public string HomeWork { get; set; }
+
+        //
+        public Class Class { get; set; }
+        //
+        public Subject Subject { get; set; }
+        //
+        public Teacher Teacher { get; set; }
+
         public Lesson() { }
         public Lesson(string homeWork)
         {

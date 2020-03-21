@@ -109,6 +109,8 @@ namespace AWPteacher
         {
             Model.Model model = new Model.Class();
             model.LoadListFromTxt();
+            DataGridViewDraw();
+            /*
             model = new Model.Lesson();
             model.LoadListFromTxt();
             model = new Model.Mark();
@@ -119,6 +121,7 @@ namespace AWPteacher
             model.LoadListFromTxt();
             model = new Model.Teacher();
             model.LoadListFromTxt();
+            */
         }
     }
 }

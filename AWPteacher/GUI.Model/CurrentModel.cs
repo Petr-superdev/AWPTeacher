@@ -7,8 +7,8 @@ namespace AWPteacher.GUI.Model
 {
     static class CurrentModel
     {
-        static public IModel GUIModel { get; set; }
-        static public AWPteacher.Model.Model Model { get; set; }
+        static public IModel GUIModel { get; set; } = new Class();
+        static public AWPteacher.Model.Model Model { get; set; } = new AWPteacher.Model.Class();
 
         static public void Set(IModel GUIModel, AWPteacher.Model.Model Model)
         {

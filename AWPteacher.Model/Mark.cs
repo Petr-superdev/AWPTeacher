@@ -9,7 +9,20 @@ namespace AWPteacher.Model
     public class Mark : Model
     {
         static public List<Mark> List { get; set; } = new List<Mark>();
+
+        //
+        public long Id { get; set; }
+        //
         public byte Value { get; set; }
+
+        //
+        public Lesson Lesson { get; set; }
+        //
+        public Student Student { get; set; }
+        //
+        public Subject Subject { get; set; }
+        //
+        public Teacher Teacher { get; set; }
 
         public Mark() { }
 

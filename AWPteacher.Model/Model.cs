@@ -10,6 +10,5 @@ namespace AWPteacher.Model
     {
         public abstract void SaveListInTxt();
         public abstract void LoadListFromTxt();
-        
     }
 }
