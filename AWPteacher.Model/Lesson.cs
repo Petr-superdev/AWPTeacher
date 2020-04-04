@@ -49,7 +49,7 @@ namespace AWPteacher.Model
 
         public override void LoadListFromTxt()
         {
-            StringReader sr = new StringReader(Environment.CurrentDirectory + "//ClassList.txt");
+            StringReader sr = new StringReader(Environment.CurrentDirectory + "//LessonList.txt");
             for (int i = Convert.ToInt32(sr.ReadLine()); i > 0; i--)
             {
                 string name = sr.ReadLine();

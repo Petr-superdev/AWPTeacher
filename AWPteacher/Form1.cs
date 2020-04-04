@@ -107,21 +107,22 @@ namespace AWPteacher
 
         private void загрузитьToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Model.Model model = new Model.Class();
-            model.LoadListFromTxt();
+            Model.Model model1 = new Model.Class();
+            model1.LoadListFromTxt();
+            //Model.Model model2 = new Model.Lesson();
+            //model2.LoadListFromTxt();
+            //Model.Model model3 = new Model.Mark();
+            //model3.LoadListFromTxt();
+            //Model.Model model4 = new Model.Student();
+            //model4.LoadListFromTxt();
+            //Model.Model model5 = new Model.Subject();
+            //model5.LoadListFromTxt();
+            //Model.Model model6 = new Model.Teacher();
+            //model6.LoadListFromTxt();
             DataGridViewDraw();
-            /*
-            model = new Model.Lesson();
-            model.LoadListFromTxt();
-            model = new Model.Mark();
-            model.LoadListFromTxt();
-            model = new Model.Student();
-            model.LoadListFromTxt();
-            model = new Model.Subject();
-            model.LoadListFromTxt();
-            model = new Model.Teacher();
-            model.LoadListFromTxt();
-            */
+            
         }
+
+        
     }
 }

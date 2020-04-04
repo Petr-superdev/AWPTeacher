@@ -18,6 +18,8 @@ namespace AWPteacher.GUI.Model
             {
                 int rowNumber = dataGridView.Rows.Add();
 
+                
+
                 dataGridView.Rows[rowNumber].Cells[0].Value = AWPteacher.Model.Class.List[i].Id;
                 dataGridView.Rows[rowNumber].Cells[1].Value = AWPteacher.Model.Class.List[i].Name;
             }
@@ -25,6 +27,8 @@ namespace AWPteacher.GUI.Model
 
         public void AddInList(TextBox[] textBoxes)
         {
+            
+
             string name = textBoxes[0].Text;
 
             var class_ = new AWPteacher.Model.Class(name);

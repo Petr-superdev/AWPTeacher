@@ -11,7 +11,7 @@ namespace AWPteacher.Model
         static public List<Class> List { get; set; } = new List<Class>();
 
         // ID
-        public long Id { get; set; }
+        public Guid Id { get; set; }
         // Наименование класса (Например, "7 Б")
         public string Name { get; set; }
 
@@ -56,7 +56,7 @@ namespace AWPteacher.Model
                 )
             )
             {
-                var class_ = new Class(name, Convert.ToInt64(id));
+                var class_ = new Class(name, new Guid(id));
                 List.Add(class_);
             }
 
@@ -67,10 +67,10 @@ namespace AWPteacher.Model
 
         public Class(string name)
         {
-            Id = 0 /*TODO*/;
+            Id = Guid.NewGuid();
             Name = name;
         }
-        public Class(string name,long id)
+        public Class(string name,Guid id)
         {
             Id = id;
             Name = name;
