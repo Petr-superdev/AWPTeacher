@@ -11,6 +11,7 @@ namespace AWPteacher.GUI.Model
         public  string[] FieldHeadersForAdd { get; set; } = { "Домашнее задание" };
         public  string[] FieldHeadersForGrid { get; set; } = {"ID", "Домашнее задание" };
         public  int[] FieldHeadersWidthForGrid { get; set; } = { 50, 200 };
+        public List<ToolStripMenuItem> ToolStripMenuItems { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         public void CellsDraw(DataGridView dataGridView)
         {
@@ -30,6 +31,11 @@ namespace AWPteacher.GUI.Model
             var lesson_ = new AWPteacher.Model.Lesson(homeWork);
 
             AWPteacher.Model.Lesson.List.Add(lesson_);
+        }
+
+        public void AddContextMenu(DataGridView dataGridView)
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -13,6 +13,7 @@ namespace AWPteacher.GUI.Model
         "","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",};
         public  int[] FieldHeadersWidthForGrid { get; set; } = {15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15,
         15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,};
+        public List<ToolStripMenuItem> ToolStripMenuItems { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         public void CellsDraw(DataGridView dataGridView)
         {
@@ -33,6 +34,11 @@ namespace AWPteacher.GUI.Model
                 var mark_ = new AWPteacher.Model.Mark(byteValue);
                 AWPteacher.Model.Mark.List.Add(mark_);
             }
+        }
+
+        public void AddContextMenu(DataGridView dataGridView)
+        {
+            throw new NotImplementedException();
         }
     }
 }

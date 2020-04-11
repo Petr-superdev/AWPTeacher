@@ -11,10 +11,12 @@ namespace AWPteacher.GUI.Model
         string[] FieldHeadersForAdd { get; set; } 
         string[] FieldHeadersForGrid { get; set; } 
         int[] FieldHeadersWidthForGrid { get; set; }
+        List<ToolStripMenuItem> ToolStripMenuItems { get; set; }
 
         void CellsDraw(DataGridView dataGridView);
 
         void AddInList(TextBox[] textBoxes);
-        
+
+        void AddContextMenu(DataGridView dataGridView);
     }
 }

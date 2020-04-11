@@ -122,7 +122,59 @@ namespace AWPteacher
             DataGridViewDraw();
             
         }
+        /*
+        ToolStripMenuItem toolStripItem1 = new ToolStripMenuItem();
+        ToolStripMenuItem toolStripItem2 = new ToolStripMenuItem();
+        ToolStripMenuItem toolStripItem3 = new ToolStripMenuItem();
+        ToolStripMenuItem toolStripItem4 = new ToolStripMenuItem();
 
-        
+        //Создание контекстного меню
+        private void AddContextMenu()
+        {
+            toolStripItem1.Text = "Уроки";
+            toolStripItem1.Click += new EventHandler(toolStripItem1_Click);
+
+            toolStripItem2.Text = "Ученики";
+            toolStripItem2.Click += new EventHandler(toolStripItem2_Click);
+
+            toolStripItem3.Text = "Учебные предметы";
+            toolStripItem3.Click += new EventHandler(toolStripItem3_Click);
+
+            toolStripItem4.Text = "Учителя";
+            toolStripItem4.Click += new EventHandler(toolStripItem4_Click);
+
+            ContextMenuStrip strip = new ContextMenuStrip();
+            foreach (DataGridViewColumn column in dataGridView1.Columns)
+            {
+                column.ContextMenuStrip = strip;
+                column.ContextMenuStrip.Items.Add(toolStripItem1);
+                column.ContextMenuStrip.Items.Add(toolStripItem2);
+                column.ContextMenuStrip.Items.Add(toolStripItem3);
+                column.ContextMenuStrip.Items.Add(toolStripItem4);
+            }
+        }
+
+        private void toolStripItem1_Click(object sender, EventArgs args)
+        {
+            dataGridView1.Rows[mouseLocation.RowIndex]
+                .Cells[mouseLocation.ColumnIndex].Style.BackColor
+                = Color.Red;
+        }
+        private void toolStripItem2_Click(object sender, EventArgs args)
+        {
+        }
+        private void toolStripItem3_Click(object sender, EventArgs args)
+        {
+        }
+        private void toolStripItem4_Click(object sender, EventArgs args)
+        {
+        }*/
+
+        private DataGridViewCellEventArgs mouseLocation;
+        private void dataGridView1_CellMouseEnter(object sender, DataGridViewCellEventArgs location)
+        {
+            mouseLocation = location;
+            GUI.Model.CurrentModel.GUIModel.AddContextMenu(dataGridView1);
+        }
     }
 }
