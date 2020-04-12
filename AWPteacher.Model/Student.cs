@@ -10,7 +10,7 @@ namespace AWPteacher.Model
     {
         static public List<Student> List { get; set; } = new List<Student>();
 
-        public long Id { get; set; }
+        public Guid Id { get; set; }
         public string Name { get; set; }
         public List<Mark> Marks { get; set; }
 
@@ -18,10 +18,10 @@ namespace AWPteacher.Model
 
         public Student(string name)
         {
-            Id = 0 /*TODO*/;
+            Id = Guid.NewGuid(); 
             Name = name;
         }
-        public Student(string name,long id)
+        public Student(string name, Guid id)
         {
             Id = id;
             Name = name;
@@ -40,15 +40,28 @@ namespace AWPteacher.Model
 
         public override void LoadListFromTxt()
         {
-            StringReader sr = new StringReader(Environment.CurrentDirectory + "//ClassList.txt");
-            for (int i = Convert.ToInt32(sr.ReadLine()); i > 0; i--)
-            {
-                string name = sr.ReadLine();
-                string Id = sr.ReadLine();
+            string path = Environment.CurrentDirectory + "\\StudentList.txt";
 
-                var student = new Student(name, Convert.ToInt64(Id));
-                List.Add(student);
+            var sr = new StreamReader(path);
+
+            string name;
+            string id;
+            while
+            (
+                (
+                    (id = sr.ReadLine()) != null
+                )
+                &&
+                (
+                    (name = sr.ReadLine()) != null
+                )
+            )
+            {
+                var class_ = new Student(name, new Guid(id));
+                List.Add(class_);
             }
+
+            sr.Close();
         }
     }
 }

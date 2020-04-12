@@ -10,17 +10,17 @@ namespace AWPteacher.Model
     {
         static public List<Subject> List { get; set; } = new List<Subject>();
 
-        public long Id { get; set; }
+        public Guid Id { get; set; }
         public string Name { get; set; }
         public Subject() { }
         public Subject(string name)
         {
-            Id = 0 /*TODO*/;
+            Id = Guid.NewGuid(); 
             Name = name;
         }
-        public Subject(string name, long Id)
+        public Subject(string name, Guid id)
         {
-            Id = 0 /*TODO*/;
+            Id = id;
             Name = name;
         }
         public override void SaveListInTxt()
@@ -37,15 +37,28 @@ namespace AWPteacher.Model
 
         public override void LoadListFromTxt()
         {
-            StringReader sr = new StringReader(Environment.CurrentDirectory + "//ClassList.txt");
-            for (int i = Convert.ToInt32(sr.ReadLine()); i > 0; i--)
-            {
-                string name = sr.ReadLine();
-                string Id = sr.ReadLine();
+            string path = Environment.CurrentDirectory + "\\SubjectList.txt";
 
-                var subject = new Subject(name, Convert.ToInt64(Id));
-                List.Add(subject);
+            var sr = new StreamReader(path);
+
+            string name;
+            string id;
+            while
+            (
+                (
+                    (id = sr.ReadLine()) != null
+                )
+                &&
+                (
+                    (name = sr.ReadLine()) != null
+                )
+            )
+            {
+                var class_ = new Subject(name, new Guid(id));
+                List.Add(class_);
             }
+
+            sr.Close();
         }
     }
 }

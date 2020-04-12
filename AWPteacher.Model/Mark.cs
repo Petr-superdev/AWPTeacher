@@ -43,13 +43,24 @@ namespace AWPteacher.Model
 
         public override void LoadListFromTxt()
         {
-            StringReader sr = new StringReader(Environment.CurrentDirectory + "//ClassList.txt");
-            for (int i = Convert.ToInt32(sr.ReadLine()); i > 0; i--)
+            string path = Environment.CurrentDirectory + "\\MarkList.txt";
+
+            var sr = new StreamReader(path);
+
+            string value;
+            while
+            (
+                (
+                    (value = sr.ReadLine()) != null
+                )
+                
+            )
             {
-                string value = sr.ReadLine();
-                var mark = new Mark(Convert.ToByte(value));
-                List.Add(mark);
+                var class_ = new Mark(Convert.ToByte(value));
+                List.Add(class_);
             }
+
+            sr.Close();
         }
     }
 }

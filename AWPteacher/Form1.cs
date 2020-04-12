@@ -109,16 +109,16 @@ namespace AWPteacher
         {
             Model.Model model1 = new Model.Class();
             model1.LoadListFromTxt();
-            //Model.Model model2 = new Model.Lesson();
-            //model2.LoadListFromTxt();
-            //Model.Model model3 = new Model.Mark();
-            //model3.LoadListFromTxt();
-            //Model.Model model4 = new Model.Student();
-            //model4.LoadListFromTxt();
-            //Model.Model model5 = new Model.Subject();
-            //model5.LoadListFromTxt();
-            //Model.Model model6 = new Model.Teacher();
-            //model6.LoadListFromTxt();
+            Model.Model model2 = new Model.Lesson();
+            model2.LoadListFromTxt();
+            Model.Model model3 = new Model.Mark();
+            model3.LoadListFromTxt();
+            Model.Model model4 = new Model.Student();
+            model4.LoadListFromTxt();
+            Model.Model model5 = new Model.Subject();
+            model5.LoadListFromTxt();
+            Model.Model model6 = new Model.Teacher();
+            model6.LoadListFromTxt();
             DataGridViewDraw();
             
         }
