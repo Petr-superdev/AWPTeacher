@@ -13,8 +13,7 @@ namespace AWPteacher.GUI.Model
         "","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",};
         public  int[] FieldHeadersWidthForGrid { get; set; } = {15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15,
         15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,};
-        public List<ToolStripMenuItem> ToolStripMenuItems { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-
+        public List<ToolStripMenuItem> ToolStripMenuItems { get; set; } = new List<ToolStripMenuItem>();
         public void CellsDraw(DataGridView dataGridView)
         {
             for (int i = 0; i < AWPteacher.Model.Mark.List.Count; i++)
@@ -38,7 +37,39 @@ namespace AWPteacher.GUI.Model
 
         public void AddContextMenu(DataGridView dataGridView)
         {
-            throw new NotImplementedException();
+            ToolStripMenuItem toolStripItem1 = new ToolStripMenuItem();
+            toolStripItem1.Text = "Учитель";
+            toolStripItem1.Click += new EventHandler(toolStripItem1_Click);
+
+            
+
+            ToolStripMenuItems.Add(toolStripItem1);
+
+            ContextMenuStrip strip = new ContextMenuStrip();
+            foreach (DataGridViewColumn column in dataGridView.Columns)
+            {
+                column.ContextMenuStrip = strip;
+                foreach (ToolStripMenuItem toolStripItem in ToolStripMenuItems)
+                {
+                    column.ContextMenuStrip.Items.Add(toolStripItem);
+                }
+            }
+        }
+        private void toolStripItem1_Click(object sender, EventArgs args)
+        {
+            /*dataGridView1.Rows[mouseLocation.RowIndex]
+                .Cells[mouseLocation.ColumnIndex].Style.BackColor
+                = Color.Red;*/
+        }
+        private void toolStripItem2_Click(object sender, EventArgs args)
+        {
+        }
+        private void toolStripItem3_Click(object sender, EventArgs args)
+        {
+        }
+        private void toolStripItem4_Click(object sender, EventArgs args)
+        {
         }
     }
 }
+

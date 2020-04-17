@@ -58,3 +58,4 @@ d:\Занятия 2019-2020\Программирование на C# часть 
 d:\Занятия 2019-2020\Программирование на C# часть 2\Тарасов Петр\GitHub\AWPTeacher29.02.2020\AWPteacher\obj\Debug\AWPteacher.csproj.CoreCompileInputs.cache
 d:\Занятия 2019-2020\Программирование на C# часть 2\Тарасов Петр\GitHub\AWPTeacher29.02.2020\AWPteacher\obj\Debug\AWPteacher.exe
 d:\Занятия 2019-2020\Программирование на C# часть 2\Тарасов Петр\GitHub\AWPTeacher29.02.2020\AWPteacher\obj\Debug\AWPteacher.pdb
+F:\програмирование\AWPteacher\AWPteacher\obj\Debug\AWPteacher.csproj.CoreCompileInputs.cache
