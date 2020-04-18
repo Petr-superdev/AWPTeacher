@@ -9,10 +9,12 @@ namespace AWPteacher.GUI.Model
 {
     class Class : IModel
     {
-        public  string[] FieldHeadersForAdd { get; set; } = { "Класс" };
+        public  string[] TextBoxFieldHeadersForAdd { get; set; } = { "Класс" };
+        public string[] ComboBoxFieldHeadersForAdd { get; set; }
         public  string[] FieldHeadersForGrid { get; set; } = { "ID", "Класс" };
         public  int[] FieldHeadersWidthForGrid { get; set; } = { 50, 100 };
         public List<ToolStripMenuItem> ToolStripMenuItems { get; set; } = new List<ToolStripMenuItem>();
+        
 
         public void CellsDraw(DataGridView dataGridView)
         {
@@ -60,14 +62,15 @@ namespace AWPteacher.GUI.Model
             ToolStripMenuItems.Add(toolStripItem4);
 
             ContextMenuStrip strip = new ContextMenuStrip();
-            foreach (DataGridViewColumn column in dataGridView.Columns)
-            {
-                column.ContextMenuStrip = strip;
+            dataGridView.ContextMenuStrip = strip;
+            
+                
                 foreach (ToolStripMenuItem toolStripItem in ToolStripMenuItems)
                 {
-                    column.ContextMenuStrip.Items.Add(toolStripItem);
+                    dataGridView.ContextMenuStrip.Items.Add(toolStripItem);
+                
                 }
-            }
+            
         }
 
         private void toolStripItem1_Click(object sender, EventArgs args)

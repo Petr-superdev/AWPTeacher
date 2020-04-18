@@ -8,7 +8,8 @@ namespace AWPteacher.GUI.Model
 {
     interface IModel
     {
-        string[] FieldHeadersForAdd { get; set; } 
+        string[] TextBoxFieldHeadersForAdd { get; set; }
+        string[] ComboBoxFieldHeadersForAdd { get; set; }
         string[] FieldHeadersForGrid { get; set; } 
         int[] FieldHeadersWidthForGrid { get; set; }
         List<ToolStripMenuItem> ToolStripMenuItems { get; set; }
