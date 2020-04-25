@@ -23,6 +23,12 @@ namespace AWPteacher.Model
             Id = id;
             Name = name;
         }
+
+        public override string GetInfoForComboBox()
+        {
+            return "";
+        }
+
         public override void SaveListInTxt()
         {
             StreamWriter sw = new StreamWriter(Environment.CurrentDirectory + "//SubjectList.txt");

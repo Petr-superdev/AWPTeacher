@@ -11,7 +11,6 @@ namespace AWPteacher.Model
         public Guid IdStudent { get; set; }
         public Guid IdSubject { get; set; }
         static public List<StudentToSubject> List { get; set; } = new List<StudentToSubject>();
-
         public override void SaveListInTxt()
         {
             StreamWriter sw = new StreamWriter(Environment.CurrentDirectory + "\\StudentToSubjectList.txt");

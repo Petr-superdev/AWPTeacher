@@ -9,11 +9,10 @@ namespace AWPteacher.GUI.Model
     class Mark :  IModel
     {
         public  string[] TextBoxFieldHeadersForAdd { get; set; } = { "Оценка" };
-        public  string[] FieldHeadersForGrid { get; set; } = {"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "",
-        "","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",};
         public string[] ComboBoxFieldHeadersForAdd { get; set; }
-        public  int[] FieldHeadersWidthForGrid { get; set; } = {15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15,
-        15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,};
+        public AWPteacher.Model.Model[] ComboBoxFieldModelsForAdd { get; set; }
+        public  string[] FieldHeadersForGrid { get; set; } = {""};
+        public  int[] FieldHeadersWidthForGrid { get; set; } = {15};
         public List<ToolStripMenuItem> ToolStripMenuItems { get; set; } = new List<ToolStripMenuItem>();
         public void CellsDraw(DataGridView dataGridView)
         {
@@ -47,13 +46,14 @@ namespace AWPteacher.GUI.Model
             ToolStripMenuItems.Add(toolStripItem1);
 
             ContextMenuStrip strip = new ContextMenuStrip();
-            
-                dataGridView.ContextMenuStrip = strip;
+            foreach (DataGridViewColumn column in dataGridView.Columns)
+            {
+                column.ContextMenuStrip = strip;
                 foreach (ToolStripMenuItem toolStripItem in ToolStripMenuItems)
                 {
-                    dataGridView.ContextMenuStrip.Items.Add(toolStripItem);
+                    column.ContextMenuStrip.Items.Add(toolStripItem);
                 }
-            
+            }
         }
         private void toolStripItem1_Click(object sender, EventArgs args)
         {

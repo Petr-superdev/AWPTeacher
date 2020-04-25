@@ -15,41 +15,54 @@ namespace AWPteacher
 
         private TextBox[] textBoxes;
         private ComboBox[] comboBoxes;
+
         public void DrawElements()
         {
-            string[] textBoxfields = GUI.Model.CurrentModel.GUIModel.TextBoxFieldHeadersForAdd;
-            textBoxes = new TextBox[textBoxfields.Length];
-            int next_position=0;
-            for (int i = 0; i < textBoxfields.Length; i++, next_position++)
+            string[] textBoxFields = GUI.Model.CurrentModel.GUIModel.TextBoxFieldHeadersForAdd;
+            textBoxes = new TextBox[textBoxFields.Length];
+
+            int next_position = 0;
+            for (int i = 0; i < textBoxFields.Length; i++, next_position++)
             {
                 textBoxes[i] = new TextBox();
-                textBoxes[i].Text = textBoxfields[i];
+                textBoxes[i].Text = textBoxFields[i];
                 textBoxes[i].Location = new System.Drawing.Point(13, 13 + (next_position * 20));
                 textBoxes[i].Name = "textBox" + i;
                 textBoxes[i].Size = new System.Drawing.Size(100, 20);
                 this.Controls.Add(textBoxes[i]);
-
-                next_position = i;
             }
-            string[] comboBoxfields = GUI.Model.CurrentModel.GUIModel.ComboBoxFieldHeadersForAdd;
-            if (comboBoxfields != null)
+            
+            if (GUI.Model.CurrentModel.GUIModel.ComboBoxFieldHeadersForAdd != null)
             {
-                comboBoxes = new ComboBox[comboBoxfields.Length];
-                for (int i = 0; i < comboBoxfields.Length; i++, next_position++)
+                string[] comboBoxFields = GUI.Model.CurrentModel.GUIModel.ComboBoxFieldHeadersForAdd;
+
+                comboBoxes = new ComboBox[comboBoxFields.Length];
+                for (int i = 0; i < comboBoxFields.Length; i++, next_position++)
                 {
                     comboBoxes[i] = new ComboBox();
-                    comboBoxes[i].Text = comboBoxfields[i];
+                    comboBoxes[i].Text = comboBoxFields[i];
                     comboBoxes[i].Location = new System.Drawing.Point(13, 13 + (next_position * 20));
                     comboBoxes[i].Name = "comboBox" + i;
                     comboBoxes[i].Size = new System.Drawing.Size(100, 20);
+
+                    var comboBoxModels = GUI.Model.CurrentModel.GUIModel.ComboBoxFieldModelsForAdd;
+                    if (comboBoxModels != null)
+                    {
+                        foreach (var model in comboBoxModels)
+                        {
+                            List<AWPteacher.Model.Model> list = model.GetList();
+                            foreach (var item in list)
+                            {
+                                comboBoxes[i].Items.Add(item.GetInfoForComboBox());
+                            }
+                        }
+                    }
+
                     this.Controls.Add(comboBoxes[i]);
                 }
             }
-
         }
-        
-        
-    
+
         public AddForm(Form1 parentForm)
         {
             this.parentForm = parentForm;

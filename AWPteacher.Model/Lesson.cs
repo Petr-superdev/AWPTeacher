@@ -35,6 +35,12 @@ namespace AWPteacher.Model
             Id = id;
             HomeWork = homeWork;
         }
+
+        public override string GetInfoForComboBox()
+        {
+            return DateTime.ToString() + " " + Subject;
+        }
+
         public override void SaveListInTxt()
         {
             StreamWriter sw = new StreamWriter(Environment.CurrentDirectory + "//LessonList.txt");

@@ -49,36 +49,42 @@ namespace AWPteacher
         {
             CurrentModel.Set(new Class(), new Model.Class());
             DataGridViewDraw();
+
             GUI.Model.CurrentModel.GUIModel.AddContextMenu(dataGridView1);
         }
         private void button2_Click(object sender, EventArgs e)
         {
             CurrentModel.Set(new Student(), new Model.Student());
             DataGridViewDraw();
+
             GUI.Model.CurrentModel.GUIModel.AddContextMenu(dataGridView1);
         }
         private void button3_Click(object sender, EventArgs e)
         {
             CurrentModel.Set(new Subject(), new Model.Subject());
             DataGridViewDraw();
+
             GUI.Model.CurrentModel.GUIModel.AddContextMenu(dataGridView1);
         }
         private void button4_Click(object sender, EventArgs e)
         {
             CurrentModel.Set(new Mark(), new Model.Mark());
             DataGridViewDraw();
+
             GUI.Model.CurrentModel.GUIModel.AddContextMenu(dataGridView1);
         }
         private void button5_Click(object sender, EventArgs e)
         {
             CurrentModel.Set(new Teacher(), new Model.Teacher());
             DataGridViewDraw();
+
             GUI.Model.CurrentModel.GUIModel.AddContextMenu(dataGridView1);
         }
         private void button6_Click(object sender, EventArgs e)
         {
             CurrentModel.Set(new Lesson(), new Model.Lesson());
             DataGridViewDraw();
+
             GUI.Model.CurrentModel.GUIModel.AddContextMenu(dataGridView1);
         }
 

@@ -40,6 +40,10 @@ namespace AWPteacher.Model
             }
             sw.Close();
         }
+        public override string GetInfoForComboBox()
+        {
+            return "";
+        }
 
         public override void LoadListFromTxt()
         {

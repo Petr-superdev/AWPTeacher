@@ -12,6 +12,7 @@ namespace AWPteacher.Model
 
         public Guid Id { get; set; }
         public string Name { get; set; }
+        public Class Class { get; set; }
         public List<Mark> Marks { get; set; }
 
         public Student() { }
@@ -26,6 +27,21 @@ namespace AWPteacher.Model
             Id = id;
             Name = name;
         }
+        public override List<Model> GetList()
+        {
+            List<Model> modelList = new List<Model>();
+            foreach (var item in List)
+            {
+                modelList.Add(item);
+            }
+            return modelList;
+        }
+
+        public override string GetInfoForComboBox()
+        {
+            return Name;
+        }
+
         public override void SaveListInTxt()
         {
             StreamWriter sw = new StreamWriter(Environment.CurrentDirectory + "//StudentList.txt");

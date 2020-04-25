@@ -10,6 +10,7 @@ namespace AWPteacher.GUI.Model
     {
         public  string[] TextBoxFieldHeadersForAdd { get; set; } = {"ФИО учителя" };
         public string[] ComboBoxFieldHeadersForAdd { get; set; }
+        public AWPteacher.Model.Model[] ComboBoxFieldModelsForAdd { get; set; }
         public  string[] FieldHeadersForGrid { get; set; } = {"ID","ФИО" };
         public  int[] FieldHeadersWidthForGrid { get; set; } = {50,150 };
         public List<ToolStripMenuItem> ToolStripMenuItems { get; set; } = new List<ToolStripMenuItem>();
@@ -57,13 +58,14 @@ namespace AWPteacher.GUI.Model
             ToolStripMenuItems.Add(toolStripItem5);
 
             ContextMenuStrip strip = new ContextMenuStrip();
-            
-                dataGridView.ContextMenuStrip = strip;
+            foreach (DataGridViewColumn column in dataGridView.Columns)
+            {
+                column.ContextMenuStrip = strip;
                 foreach (ToolStripMenuItem toolStripItem in ToolStripMenuItems)
                 {
-                    dataGridView.ContextMenuStrip.Items.Add(toolStripItem);
+                    column.ContextMenuStrip.Items.Add(toolStripItem);
                 }
-            
+            }
         }
         private void toolStripItem1_Click(object sender, EventArgs args)
         {

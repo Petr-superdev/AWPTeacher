@@ -16,13 +16,32 @@ namespace AWPteacher.Model
         public string Name { get; set; }
 
         // Список уроков для всего класса
+        // 1 * 
         public List<Lesson> Lessons { get; set; }
         // Список учеников этого класса
+        // 1 * 
         public List<Student> Students { get; set; }
         // Список учебных предметов (Биология, Математика,  ...)
+        // * * 
         public List<Subject> Subjects { get; set; }
         // Список учителей
+        // * * 
         public List<Teacher> Teachers { get; set; }
+
+        public override List<Model> GetList()
+        {
+            List<Model> modelList = new List<Model>();
+            foreach (var item in List)
+            {
+                modelList.Add(item);
+            }
+            return modelList;
+        }
+
+        public override string GetInfoForComboBox()
+        {
+            return Name;
+        }
 
         public override void SaveListInTxt()
         {

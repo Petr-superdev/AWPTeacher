@@ -59,3 +59,15 @@ d:\Занятия 2019-2020\Программирование на C# часть 
 d:\Занятия 2019-2020\Программирование на C# часть 2\Тарасов Петр\GitHub\AWPTeacher29.02.2020\AWPteacher\obj\Debug\AWPteacher.exe
 d:\Занятия 2019-2020\Программирование на C# часть 2\Тарасов Петр\GitHub\AWPTeacher29.02.2020\AWPteacher\obj\Debug\AWPteacher.pdb
 F:\програмирование\AWPteacher\AWPteacher\obj\Debug\AWPteacher.csproj.CoreCompileInputs.cache
+d:\Занятия 2019-2020\Программирование на C# часть 2\Тарасов Петр\GitHub\AWPTeacher18.04.2020\AWPteacher\bin\Debug\AWPteacher.exe
+d:\Занятия 2019-2020\Программирование на C# часть 2\Тарасов Петр\GitHub\AWPTeacher18.04.2020\AWPteacher\bin\Debug\AWPteacher.pdb
+d:\Занятия 2019-2020\Программирование на C# часть 2\Тарасов Петр\GitHub\AWPTeacher18.04.2020\AWPteacher\bin\Debug\AWPteacher.Model.dll
+d:\Занятия 2019-2020\Программирование на C# часть 2\Тарасов Петр\GitHub\AWPTeacher18.04.2020\AWPteacher\bin\Debug\AWPteacher.Model.pdb
+d:\Занятия 2019-2020\Программирование на C# часть 2\Тарасов Петр\GitHub\AWPTeacher18.04.2020\AWPteacher\obj\Debug\AWPteacher.csprojResolveAssemblyReference.cache
+d:\Занятия 2019-2020\Программирование на C# часть 2\Тарасов Петр\GitHub\AWPTeacher18.04.2020\AWPteacher\obj\Debug\AWPteacher.AddForm.resources
+d:\Занятия 2019-2020\Программирование на C# часть 2\Тарасов Петр\GitHub\AWPTeacher18.04.2020\AWPteacher\obj\Debug\AWPteacher.Form1.resources
+d:\Занятия 2019-2020\Программирование на C# часть 2\Тарасов Петр\GitHub\AWPTeacher18.04.2020\AWPteacher\obj\Debug\AWPteacher.Properties.Resources.resources
+d:\Занятия 2019-2020\Программирование на C# часть 2\Тарасов Петр\GitHub\AWPTeacher18.04.2020\AWPteacher\obj\Debug\AWPteacher.csproj.GenerateResource.Cache
+d:\Занятия 2019-2020\Программирование на C# часть 2\Тарасов Петр\GitHub\AWPTeacher18.04.2020\AWPteacher\obj\Debug\AWPteacher.csproj.CoreCompileInputs.cache
+d:\Занятия 2019-2020\Программирование на C# часть 2\Тарасов Петр\GitHub\AWPTeacher18.04.2020\AWPteacher\obj\Debug\AWPteacher.exe
+d:\Занятия 2019-2020\Программирование на C# часть 2\Тарасов Петр\GitHub\AWPTeacher18.04.2020\AWPteacher\obj\Debug\AWPteacher.pdb
