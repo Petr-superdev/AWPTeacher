@@ -71,6 +71,7 @@ namespace AWPteacher
 
         private void button1_Click(object sender, EventArgs e)
         {
+            GUI.Model.CurrentModel.ModelNeeds.AddInList(comboBoxes);
             GUI.Model.CurrentModel.GUIModel.AddInList(textBoxes);
             this.Close();
             parentForm.DataGridViewDraw();
