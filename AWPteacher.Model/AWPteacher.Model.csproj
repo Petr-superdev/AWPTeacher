@@ -42,8 +42,6 @@
     <Compile Include="Class.cs" />
     <Compile Include="ClassToSubject.cs" />
     <Compile Include="ClassToTeacher.cs" />
-    <Compile Include="INeed.cs" />
-    <Compile Include="StudentNeeds.cs" />
     <Compile Include="Lesson.cs" />
     <Compile Include="Mark.cs" />
     <Compile Include="Model.cs" />

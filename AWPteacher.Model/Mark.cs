@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.IO;
 using System.Linq;
 using System.Text;
 
 namespace AWPteacher.Model
 {
+    [DisplayName("Оценка")]
     public class Mark : Model
     {
         static public List<Mark> List { get; set; } = new List<Mark>();

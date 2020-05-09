@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.IO;
+using System.ComponentModel;
 
 namespace AWPteacher.Model
 {
+    [DisplayName("Класс")]
     public class Class : Model
     {
         static public List<Class> List { get; set; } = new List<Class>();

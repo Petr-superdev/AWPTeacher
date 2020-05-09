@@ -8,7 +8,6 @@ using System.Text;
 using System.Windows.Forms;
 using AWPteacher.GUI.Model;
 using AWPteacher.Model;
-using AWPteacher.Model.ElementsNeedsCollection;
 
 namespace AWPteacher
 {
@@ -49,7 +48,7 @@ namespace AWPteacher
        
         private void button1_Click(object sender, EventArgs e)
         {
-            CurrentModel.Set(new Class(), new Model.Class(),new Needs.StudentNeeds());
+            CurrentModel.Set(new Class(), new Model.Class());
             DataGridViewDraw();
 
             GUI.Model.CurrentModel.GUIModel.AddContextMenu(dataGridView1);
