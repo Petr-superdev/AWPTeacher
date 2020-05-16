@@ -33,3 +33,29 @@ d:\Занятия 2019-2020\Программирование на C# часть 
 d:\Занятия 2019-2020\Программирование на C# часть 2\Тарасов Петр\GitHub\AWPTeacher18.04.2020\AWPteacher.Model\obj\Debug\AWPteacher.Model.dll
 d:\Занятия 2019-2020\Программирование на C# часть 2\Тарасов Петр\GitHub\AWPTeacher18.04.2020\AWPteacher.Model\obj\Debug\AWPteacher.Model.pdb
 F:\програмирование\AWPteacher\AWPteacher.Model\obj\Debug\AWPteacher.Model.csproj.CoreCompileInputs.cache
+F:\програмирование\AWPteacher\AWPteacher.Model\bin\Debug\antlr.runtime.dll
+F:\програмирование\AWPteacher\AWPteacher.Model\bin\Debug\Antlr3.Runtime.dll
+F:\програмирование\AWPteacher\AWPteacher.Model\bin\Debug\Antlr3.Utility.dll
+F:\програмирование\AWPteacher\AWPteacher.Model\bin\Debug\Castle.Core.dll
+F:\програмирование\AWPteacher\AWPteacher.Model\bin\Debug\Castle.DynamicProxy2.dll
+F:\програмирование\AWPteacher\AWPteacher.Model\bin\Debug\Common.Logging.dll
+F:\програмирование\AWPteacher\AWPteacher.Model\bin\Debug\Iesi.Collections.dll
+F:\програмирование\AWPteacher\AWPteacher.Model\bin\Debug\LinFu.DynamicProxy.dll
+F:\програмирование\AWPteacher\AWPteacher.Model\bin\Debug\log4net.dll
+F:\програмирование\AWPteacher\AWPteacher.Model\bin\Debug\NHibernate.ByteCode.Castle.dll
+F:\програмирование\AWPteacher\AWPteacher.Model\bin\Debug\NHibernate.ByteCode.LinFu.dll
+F:\програмирование\AWPteacher\AWPteacher.Model\bin\Debug\NHibernate.ByteCode.Spring.dll
+F:\програмирование\AWPteacher\AWPteacher.Model\bin\Debug\NHibernate.dll
+F:\програмирование\AWPteacher\AWPteacher.Model\bin\Debug\Spring.Aop.dll
+F:\програмирование\AWPteacher\AWPteacher.Model\bin\Debug\Spring.Core.dll
+F:\програмирование\AWPteacher\AWPteacher.Model\bin\Debug\StringTemplate.dll
+F:\програмирование\AWPteacher\AWPteacher.Model\bin\Debug\Castle.Core.xml
+F:\програмирование\AWPteacher\AWPteacher.Model\bin\Debug\Castle.DynamicProxy2.xml
+F:\програмирование\AWPteacher\AWPteacher.Model\bin\Debug\log4net.xml
+F:\програмирование\AWPteacher\AWPteacher.Model\bin\Debug\NHibernate.xml
+F:\програмирование\AWPteacher\AWPteacher.Model\bin\Debug\NHibernate.ByteCode.Castle.xml
+F:\програмирование\AWPteacher\AWPteacher.Model\bin\Debug\NHibernate.ByteCode.LinFu.xml
+F:\програмирование\AWPteacher\AWPteacher.Model\bin\Debug\NHibernate.ByteCode.Spring.xml
+F:\програмирование\AWPteacher\AWPteacher.Model\bin\Debug\Spring.Aop.xml
+F:\програмирование\AWPteacher\AWPteacher.Model\bin\Debug\Spring.Core.xml
+F:\програмирование\AWPteacher\AWPteacher.Model\obj\Debug\AWPteacher.Model.csproj.CopyComplete

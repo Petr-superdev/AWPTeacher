@@ -10,7 +10,7 @@ namespace AWPteacher.GUI.Model
     {
         public  string[] TextBoxFieldHeadersForAdd { get; set; } = { "ФИО ученика/цы" };
         public string[] ComboBoxFieldHeadersForAdd { get; set; } = { "Класс" };
-        public AWPteacher.Model.Model[] ComboBoxFieldModelsForAdd { get; set; } = { new AWPteacher.Model.Class() };
+        public AWPteacher.Model.Model[] ComboBoxFieldModelsForAdd { get; set; } = { new AWPteacher.Model.ClassGroup() };
         public  string[] FieldHeadersForGrid { get; set; } = { "ID" , "ФИО" };
         public  int[] FieldHeadersWidthForGrid { get; set; } = { 50,150};
         public List<ToolStripMenuItem> ToolStripMenuItems { get; set; } = new List<ToolStripMenuItem>();

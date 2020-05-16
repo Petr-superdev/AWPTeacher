@@ -18,14 +18,14 @@ namespace AWPteacher.GUI.Model
 
         public void CellsDraw(DataGridView dataGridView)
         {
-            for (int i = 0; i < AWPteacher.Model.Class.List.Count; i++)
+            for (int i = 0; i < AWPteacher.Model.ClassGroup.List.Count; i++)
             {
                 int rowNumber = dataGridView.Rows.Add();
 
                 
 
-                dataGridView.Rows[rowNumber].Cells[0].Value = AWPteacher.Model.Class.List[i].Id;
-                dataGridView.Rows[rowNumber].Cells[1].Value = AWPteacher.Model.Class.List[i].Name;
+                dataGridView.Rows[rowNumber].Cells[0].Value = AWPteacher.Model.ClassGroup.List[i].Id;
+                dataGridView.Rows[rowNumber].Cells[1].Value = AWPteacher.Model.ClassGroup.List[i].Name;
             }
         }
 
@@ -33,9 +33,9 @@ namespace AWPteacher.GUI.Model
         {
             string name = textBoxes[0].Text;
 
-            var class_ = new AWPteacher.Model.Class(name);
+            var class_ = new AWPteacher.Model.ClassGroup(name);
 
-            AWPteacher.Model.Class.List.Add(class_);
+            AWPteacher.Model.ClassGroup.List.Add(class_);
         }
 
         public void AddContextMenu(DataGridView dataGridView)

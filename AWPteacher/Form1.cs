@@ -48,42 +48,42 @@ namespace AWPteacher
        
         private void button1_Click(object sender, EventArgs e)
         {
-            CurrentModel.Set(new Class(), new Model.Class());
+            CurrentModel.Set(new AWPteacher.GUI.Model.Class(), new Model.ClassGroup());
             DataGridViewDraw();
 
             GUI.Model.CurrentModel.GUIModel.AddContextMenu(dataGridView1);
         }
         private void button2_Click(object sender, EventArgs e)
         {
-            CurrentModel.Set(new Student(), new Model.Student());
+            CurrentModel.Set(new AWPteacher.GUI.Model.Student(), new Model.Student());
             DataGridViewDraw();
 
             GUI.Model.CurrentModel.GUIModel.AddContextMenu(dataGridView1);
         }
         private void button3_Click(object sender, EventArgs e)
         {
-            CurrentModel.Set(new Subject(), new Model.Subject());
+            CurrentModel.Set(new AWPteacher.GUI.Model.Subject(), new Model.Subject());
             DataGridViewDraw();
 
             GUI.Model.CurrentModel.GUIModel.AddContextMenu(dataGridView1);
         }
         private void button4_Click(object sender, EventArgs e)
         {
-            CurrentModel.Set(new Mark(), new Model.Mark());
+            CurrentModel.Set(new AWPteacher.GUI.Model.Mark(), new Model.Mark());
             DataGridViewDraw();
 
             GUI.Model.CurrentModel.GUIModel.AddContextMenu(dataGridView1);
         }
         private void button5_Click(object sender, EventArgs e)
         {
-            CurrentModel.Set(new Teacher(), new Model.Teacher());
+            CurrentModel.Set(new AWPteacher.GUI.Model.Teacher(), new Model.Teacher());
             DataGridViewDraw();
 
             GUI.Model.CurrentModel.GUIModel.AddContextMenu(dataGridView1);
         }
         private void button6_Click(object sender, EventArgs e)
         {
-            CurrentModel.Set(new Lesson(), new Model.Lesson());
+            CurrentModel.Set(new AWPteacher.GUI.Model.Lesson(), new Model.Lesson());
             DataGridViewDraw();
 
             GUI.Model.CurrentModel.GUIModel.AddContextMenu(dataGridView1);
@@ -104,7 +104,7 @@ namespace AWPteacher
         
         private void сохранитьToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Model.Model model = new Model.Class();
+            Model.Model model = new Model.ClassGroup();
             model.SaveListInTxt();
             model = new Model.Lesson();
             model.SaveListInTxt();
@@ -120,7 +120,7 @@ namespace AWPteacher
 
         private void загрузитьToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Model.Model model1 = new Model.Class();
+            Model.Model model1 = new Model.ClassGroup();
             model1.LoadListFromTxt();
             Model.Model model2 = new Model.Lesson();
             model2.LoadListFromTxt();
